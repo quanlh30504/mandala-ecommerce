@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import ProductCard from "@/components/products/ProductCard";
 import { getImageUrl } from "@/lib/getImageUrl";
 import { productService } from "@/services/productService";
+import { findHotTrendProducts } from "@/lib/actions/product";
 import { IProduct } from "@/models/Product";
 import SocialLinks from "@/components/SocialLinks";
 import AboutSection from "@/components/AboutSection";
@@ -47,17 +48,18 @@ const heroButtons = [
 ];
 
 export default async function Home() {
-  let hotTrendProducts: IProduct[] = [];
+  // let hotTrendProducts: IProduct[] = [];
 
-  try {
-    const products = await productService.getProducts({
-      hotTrend: true,
-    });
-    // Giới hạn chỉ lấy 9 sản phẩm đầu tiên
-    hotTrendProducts = products.slice(0, 9);
-  } catch (error) {
-    console.error("Error fetching hot trend products:", error);
-  }
+  // try {
+  //   const products = await productService.getProducts({
+  //     hotTrend: true,
+  //   });
+  //   // Giới hạn chỉ lấy 9 sản phẩm đầu tiên
+  //   hotTrendProducts = products.slice(0, 9);
+  // } catch (error) {
+  //   console.error("Error fetching hot trend products:", error);
+  // }
+  const hotTrendProducts: IProduct[] = await findHotTrendProducts(9);
 
   return (
     <div className="min-h-screen">

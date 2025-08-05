@@ -27,14 +27,26 @@ export interface ProductQueryParams {
 class ProductService {
   // Helper method để tạo absolute URL
   private getAbsoluteUrl(path: string): string {
-    // Nếu đang chạy trên server (SSR)
-    if (typeof window === 'undefined') {
-      const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
-      return `${baseUrl}${path}`;
+        // Nếu đang chạy trên server (SSR hoặc build time)
+        if (typeof window === 'undefined') {
+            // 1. Ưu tiên sử dụng biến VERCEL_URL do Vercel cung cấp
+            if (process.env.VERCEL_URL) {
+                // Thêm https:// vào trước domain của Vercel
+                return `https://{process.env.VERCEL_URL}{path}`;
+            }
+
+            // 2. Nếu không có (chạy ở local), dùng biến môi trường tùy chỉnh
+            if (process.env.NEXT_PUBLIC_API_URL) {
+                return `${process.env.NEXT_PUBLIC_API_URL}${path}`;
+            }
+
+            // 3. Cuối cùng, fallback về localhost cho môi trường dev
+            return `http://localhost:3000{path}`;
+        }
+        
+        // Nếu đang chạy trên client, dùng đường dẫn tương đối là đủ
+        return path;
     }
-    // Nếu đang chạy trên client
-    return path;
-  }
 
   // Lấy tất cả sản phẩm với các tùy chọn filter - Match với API route thực tế
   async getProducts(params: ProductQueryParams = {}): Promise<IProduct[]> {

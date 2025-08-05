@@ -12,6 +12,8 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { getCart } from "@/lib/actions/cart";
 import { CartProvider } from "@/app/cart/context/CartContext";
+import AppProviders from "@/components/AppProvider";
+import SiteHeader from "@/components/SiteHeader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,34 +31,25 @@ export const metadata: Metadata = {
     "Madala - Điểm đến hoàn hảo cho thời trang và phụ kiện chất lượng cao",
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const userData = await getUserForHeader();
-
-  // lấy dữ liệu giỏ hàng của người dùng
-  const cartResult = await getCart();
-  const initialCart = cartResult.success ? cartResult.data : null;
-
   return (
     <html lang="vi">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="...">
         <AuthProvider>
           <ToastProvider />
-          <CartProvider initialCart={JSON.parse(JSON.stringify(initialCart))}>
+          {/* AppProviders sẽ lo việc fetch cart và cung cấp context */}
+          <AppProviders>
             <ConditionalLayout
-              header={<Header initialUserData={userData} />}
+              header={<SiteHeader />} // SiteHeader sẽ tự fetch data của nó
               footer={<Footer />}
             >
-              <CompareProvider>
-                <main className="min-h-screen">{children}</main>
-              </CompareProvider>
+              <main className="min-h-screen">{children}</main>
             </ConditionalLayout>
-          </CartProvider>
+          </AppProviders>
         </AuthProvider>
       </body>
     </html>
