@@ -1,0 +1,7 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="400" fill="#f3f4f6"/>
+<path d="M150 150H250V200H200V250H150V150Z" fill="#d1d5db"/>
+<path d="M175 175C175 169.477 179.477 165 185 165C190.523 165 195 169.477 195 175C195 180.523 190.523 185 185 185C179.477 185 175 180.523 175 175Z" fill="#9ca3af"/>
+<path d="M220 220L240 200L280 240L280 280L160 280L160 240L180 220L200 240L220 220Z" fill="#9ca3af"/>
+<text x="200" y="320" text-anchor="middle" font-family="system-ui" font-size="14" fill="#6b7280">Không có hình ảnh</text>
+</svg>

@@ -1,0 +1,2218 @@
+{
+"categories": [
+    {
+      "id": "cat-1",
+      "name": "Mỹ phẩm",
+      "slug": "my-pham",
+      "description": "Các sản phẩm chăm sóc và làm đẹp",
+      "parentId": null,
+      "level": 1,
+      "sortOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "cat-2", 
+      "name": "Trang sức - Vòng tay",
+      "slug": "vong-tay",
+      "description": "Các loại vòng tay thời trang và sang trọng",
+      "parentId": null,
+      "level": 1,
+      "sortOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "cat-3",
+      "name": "Trang sức - Nhẫn",
+      "slug": "nhan",
+      "description": "Bộ sưu tập nhẫn đa phong cách",
+      "parentId": null,
+      "level": 1,
+      "sortOrder": 3,
+      "isActive": true
+    },
+    {
+      "id": "cat-4",
+      "name": "Trang sức - Lắc chân",
+      "slug": "lac-chan",
+      "description": "Phụ kiện chân tinh tế và quyến rũ",
+      "parentId": null,
+      "level": 1,
+      "sortOrder": 4,
+      "isActive": true
+    },
+    {
+      "id": "cat-5",
+      "name": "Phụ kiện - Giày lười",
+      "slug": "giay-luoi",
+      "description": "Giày lười nam nữ thời trang",
+      "parentId": null,
+      "level": 1,
+      "sortOrder": 5,
+      "isActive": true
+    },
+    {
+      "id": "cat-6",
+      "name": "Phụ kiện - Giày mọi",
+      "slug": "giay-moi",
+      "description": "Giày mọi cao cấp cho nam và nữ",
+      "parentId": null,
+      "level": 1,
+      "sortOrder": 6,
+      "isActive": true
+    },
+    {
+      "id": "cat-7",
+      "name": "Phụ kiện khác",
+      "slug": "phu-kien-khac",
+      "description": "Các phụ kiện đa dạng và độc đáo",
+      "parentId": null,
+      "level": 1,
+      "sortOrder": 7,
+      "isActive": true
+    },
+    {
+      "id": "cat-8",
+      "name": "Nước hoa",
+      "slug": "nuoc-hoa",
+      "description": "Các loại nước hoa cao cấp",
+      "parentId": null,
+      "level": 1,
+      "sortOrder": 8,
+      "isActive": true
+    },
+    {
+      "id": "cat-9",
+      "name": "Trang sức - Phụ kiện trang sức",
+      "slug": "phu-kien-trang-suc",
+      "description": "Các phụ kiện bổ trợ cho trang sức",
+      "parentId": null,
+      "level": 1,
+      "sortOrder": 9,
+      "isActive": true
+    },
+    {
+      "id": "cat-10",
+      "name": "Trang sức - Bông tai",
+      "slug": "bong-tai",
+      "description": "Bộ sưu tập bông tai đa phong cách",
+      "parentId": null,
+      "level": 1,
+      "sortOrder": 10,
+      "isActive": true
+    }
+  ],
+  
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Lắc tay Tiffany Xu Hướng Mới",
+      "slug": "lac-tay-tiffany-xu-huong-moi",
+      "description": "Chiếc lắc tay sang trọng với thiết kế tinh xảo, chế tác từ bạc nguyên chất 925, mang đến vẻ đẹp quý phái và đẳng cấp.",
+      "shortDescription": "Lắc tay Tiffany thiết kế độc đáo, chất liệu cao cấp",
+      "price": 955000,
+      "salePrice": 799000,
+      "sku": "LACDAY-001",
+      "stock": 10,
+      "images": [
+        "/public/products/bracelet-1.jpg",
+        "/public/products/bracelet-1-2.jpg",
+        "/public/products/bracelet-1-3.jpg"
+      ],
+      "categoryIds": ["cat-2"],
+      "tags": ["tiffany", "lắc tay", "bạc 925", "cao cấp"],
+      "attributes": {
+        "color": ["Bạc"],
+        "material": "Bạc 925",
+        "brand": "Tiffany & Co",
+        "size": ["S", "M", "L"],
+        "weight": "15g"
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 12,
+        "details": {
+          "5": 6,
+          "4": 4,
+          "3": 2,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 150,
+      "discountPercentage": 16
+    },
+    {
+      "id": "prod-2",
+      "name": "Kem Dưỡng Da Cao Cấp Lancôme",
+      "slug": "kem-duong-da-lancome",
+      "description": "Kem dưỡng da chuyên sâu, phục hồi và nuôi dưỡng làn da, giúp da trắng sáng, mịn màng và tươi trẻ.",
+      "shortDescription": "Kem dưỡng da cao cấp từ Lancôme",
+      "price": 365000,
+      "salePrice": 320000,
+      "sku": "MYPHAM-001",
+      "stock": 25,
+      "images": [
+        "public/products/cosmetic-1.jpg",
+        "public/products/cosmetic-1-2.jpg"
+      ],
+      "categoryIds": ["cat-4"],
+      "tags": ["mỹ phẩm", "chăm sóc da", "lancôme"],
+      "attributes": {
+        "brand": "Lancôme",
+        "type": "Kem dưỡng ẩm",
+        "skinType": ["Da khô", "Da thường"],
+        "volume": "50ml"
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 8,
+        "details": {
+          "5": 5,
+          "4": 3,
+          "3": 0,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": false,
+      "isHotTrend": true,
+      "viewCount": 89,
+      "discountPercentage": 12
+    },
+    {
+      "id": "prod-5",
+      "name": "Dây Chuyền Vàng 18K Sang Trọng",
+      "slug": "day-chuyen-vang-18k",
+      "description": "Dây chuyền vàng 18K thiết kế tinh xảo, phù hợp cho các dịp trọng đại",
+      "price": 35000000,
+      "salePrice": 31500000,
+      "sku": "DAYCHUYEN-001",
+      "stock": 8,
+      "categoryIds": ["cat-6"],
+      "images": [
+        "/public/products/gold-necklace-1.jpg",
+        "/public/products/gold-necklace-2.jpg"
+      ],
+      "attributes": {
+        "material": "Vàng 18K",
+        "weight": "10 chỉ",
+        "length": "45cm"
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 20
+      },
+      "isHotTrend": true
+    },
+    {
+      "id": "prod-6",
+      "name": "Nước Hoa Nam Dior Sauvage",
+      "slug": "nuoc-hoa-nam-dior-sauvage",
+      "description": "Nước hoa nam Dior Sauvage, mùi hương nam tính và lịch lãm",
+      "price": 3500000,
+      "salePrice": 3150000,
+      "sku": "NUOCHOA-001",
+      "stock": 15,
+      "categoryIds": ["cat-11"],
+      "images": [
+        "/public/products/dior-sauvage-1.jpg",
+        "/public/products/dior-sauvage-2.jpg"
+      ],
+      "attributes": {
+        "brand": "Dior",
+        "volume": "100ml",
+        "type": "Eau de Parfum"
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 35
+      },
+      "isHotTrend": true
+    },
+    {
+      "id": "prod-7",
+      "name": "Kem Dưỡng Da Lancôme Advanced",
+      "slug": "kem-duong-da-lancome-advanced",
+      "description": "Kem dưỡng da cao cấp Lancôme, giúp da trắng sáng và mịn màng",
+      "price": 2800000,
+      "salePrice": 2520000,
+      "sku": "KEMDUONG-001",
+      "stock": 12,
+      "categoryIds": ["cat-4"],
+      "images": [
+        "/public/products/lancome-cream-1.jpg",
+        "/public/products/lancome-cream-2.jpg"
+      ],
+      "attributes": {
+        "brand": "Lancôme",
+        "skinType": ["Da khô", "Da thường"],
+        "volume": "50ml"
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 28
+      },
+      "isHotTrend": false
+    },
+    {
+      "id": "prod-8",
+      "name": "Lắc Tay Bạc Đính Đá Swarovski",
+      "slug": "lac-tay-bac-swarovski",
+      "description": "Lắc tay bạc cao cấp đính đá Swarovski, thiết kế tinh tế",
+      "price": 1500000,
+      "salePrice": 1350000,
+      "sku": "LACTAY-002",
+      "stock": 10,
+      "categoryIds": ["cat-2"],
+      "images": [
+        "/public/products/silver-bracelet-1.jpg",
+        "/public/products/silver-bracelet-2.jpg"
+      ],
+      "attributes": {
+        "material": "Bạc 925",
+        "gemstone": "Đá Swarovski",
+        "size": ["S", "M", "L"]
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 22
+      },
+      "isHotTrend": true
+    },
+    {
+      "id": "prod-9",
+      "name": "Phấn Nền Chanel Les Beiges",
+      "slug": "phan-nen-chanel-les-beiges",
+      "description": "Phấn nền Chanel Les Beiges, che phủ hoàn hảo và tự nhiên",
+      "price": 1800000,
+      "salePrice": 1620000,
+      "sku": "PHANNEN-001",
+      "stock": 18,
+      "categoryIds": ["cat-8"],
+      "images": [
+        "/public/products/chanel-foundation-1.jpg",
+        "/public/products/chanel-foundation-2.jpg"
+      ],
+      "attributes": {
+        "brand": "Chanel",
+        "shade": ["B10", "B20", "B30"],
+        "type": "Phấn nền dạng nén"
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 30
+      },
+      "isHotTrend": false
+    },
+    {
+      "id": "prod-10",
+      "name": "Dầu Gội Cao Cấp Kerastase",
+      "slug": "dau-goi-kerastase",
+      "description": "Dầu gội Kerastase chăm sóc tóc chuyên sâu, phục hồi hư tổn",
+      "price": 850000,
+      "salePrice": 765000,
+      "sku": "DAUGOI-001",
+      "stock": 25,
+      "categoryIds": ["cat-14"],
+      "images": [
+        "/public/products/kerastase-shampoo-1.jpg",
+        "/public/products/kerastase-shampoo-2.jpg"
+      ],
+      "attributes": {
+        "brand": "Kerastase",
+        "hairType": ["Tóc khô", "Tóc hư tổn"],
+        "volume": "250ml"
+      },
+      "rating": {
+        "average": 4.4,
+        "count": 40
+      },
+      "isHotTrend": true
+    },
+    {
+      "id": "prod-11",
+      "name": "Nhẫn Đôi Bạc Cao Cấp",
+      "slug": "nhan-doi-bac",
+      "description": "Cặp nhẫn đôi bạc thiết kế hiện đại, biểu tượng của tình yêu",
+      "price": 2200000,
+      "salePrice": 1980000,
+      "sku": "NHANDOI-001",
+      "stock": 7,
+      "categoryIds": ["cat-5"],
+      "images": [
+        "/public/products/couple-ring-1.jpg",
+        "/public/products/couple-ring-2.jpg"
+      ],
+      "attributes": {
+        "material": "Bạc 925",
+        "style": "Nhẫn đôi",
+        "size": ["Nam", "Nữ"]
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 18
+      },
+      "isHotTrend": true
+    },
+    {
+      "id": "prod-12",
+      "name": "Nước Hoa Nữ Chanel Chance",
+      "slug": "nuoc-hoa-nu-chanel-chance",
+      "description": "Nước hoa Chanel Chance, mùi hương nữ tính và quyến rũ",
+      "price": 3200000,
+      "salePrice": 2880000,
+      "sku": "NUOCHOA-002",
+      "stock": 12,
+      "categoryIds": ["cat-12"],
+      "images": [
+        "/public/products/chanel-chance-1.jpg",
+        "/public/products/chanel-chance-2.jpg"
+      ],
+      "attributes": {
+        "brand": "Chanel",
+        "volume": "100ml",
+        "type": "Eau de Parfum"
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 25
+      },
+      "isHotTrend": true
+    },
+    {
+      "id": "prod-13",
+      "name": "Kem Chống Nắng Anessa Perfect UV",
+      "slug": "kem-chong-nang-anessa",
+      "description": "Kem chống nắng Nhật Bản, bảo vệ da hoàn hảo",
+      "shortDescription": "Kem chống nắng chuyên sâu từ Nhật Bản",
+      "price": 450000,
+      "salePrice": 399000,
+      "sku": "CHONGNANG-001",
+      "stock": 30,
+      "images": [
+        "/public/products/anessa-suncreen-1.jpg",
+        "/public/products/anessa-suncreen-2.jpg"
+      ],
+      "categoryIds": ["cat-1"],
+      "tags": ["chăm sóc da", "chống nắng", "nhật bản"],
+      "attributes": {
+        "brand": "Anessa",
+        "spf": "50+/PA++++",
+        "skinType": ["Mọi loại da"],
+        "volume": "60ml",
+        "type": "Kem chống nắng"
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 45,
+        "details": {
+          "5": 25,
+          "4": 15,
+          "3": 5,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 200,
+      "discountPercentage": 11
+    },
+    {
+      "id": "prod-14",
+      "name": "Vòng Tay Bạc Đính Đá Swarovski",
+      "slug": "vong-tay-bac-swarovski",
+      "description": "Vòng tay bạc sang trọng, đính đá Swarovski",
+      "shortDescription": "Vòng tay bạc cao cấp đính đá lấp lánh",
+      "price": 2500000,
+      "salePrice": 2200000,
+      "sku": "VONGTAY-001",
+      "stock": 15,
+      "images": [
+        "/public/products/silver-swarovski-bracelet-1.jpg",
+        "/public/products/silver-swarovski-bracelet-2.jpg"
+      ],
+      "categoryIds": ["cat-2"],
+      "tags": ["trang sức", "bạc", "swarovski"],
+      "attributes": {
+        "material": "Bạc 925",
+        "gemstone": "Đá Swarovski",
+        "size": ["S", "M", "L"],
+        "weight": "25g",
+        "style": "Đính đá"
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 22,
+        "details": {
+          "5": 12,
+          "4": 8,
+          "3": 2,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 180,
+      "discountPercentage": 12
+    },
+    {
+      "id": "prod-15",
+      "name": "Nhẫn Vàng Trắng 14K Kim Cương",
+      "slug": "nhan-vang-kim-cuong",
+      "description": "Nhẫn kim cương thiết kế hiện đại",
+      "shortDescription": "Nhẫn vàng trắng sang trọng đính kim cương",
+      "price": 45000000,
+      "salePrice": 39000000,
+      "sku": "NHANVANG-001",
+      "stock": 5,
+      "images": [
+        "/public/products/diamond-ring-1.jpg",
+        "/public/products/diamond-ring-2.jpg"
+      ],
+      "categoryIds": ["cat-3"],
+      "tags": ["trang sức", "kim cương", "vàng trắng"],
+      "attributes": {
+        "material": "Vàng trắng 14K",
+        "gemstone": "Kim cương",
+        "caratWeight": "0.5 carat",
+        "size": [6, 7, 8, 9],
+        "style": "Hiện đại"
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 15,
+        "details": {
+          "5": 12,
+          "4": 3,
+          "3": 0,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 250,
+      "discountPercentage": 13
+    },
+    {
+      "id": "prod-16",
+      "name": "Lắc Chân Bạc Đính Ngọc Trai",
+      "slug": "lac-chan-bac-ngoc-trai",
+      "description": "Lắc chân bạc thanh lịch, điểm xuyết ngọc trai sang trọng",
+      "shortDescription": "Lắc chân bạc cao cấp đính ngọc trai tinh tế",
+      "price": 1800000,
+      "salePrice": 1500000,
+      "sku": "LACCHAN-001",
+      "stock": 20,
+      "images": [
+        "/public/products/silver-pearl-anklet-1.jpg",
+        "/public/products/silver-pearl-anklet-2.jpg"
+      ],
+      "categoryIds": ["cat-4"],
+      "tags": ["trang sức", "lắc chân", "bạc", "ngọc trai"],
+      "attributes": {
+        "material": "Bạc 925",
+        "gemstone": "Ngọc trai",
+        "length": ["22cm", "25cm"],
+        "weight": "15g",
+        "style": "Đính ngọc"
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 35,
+        "details": {
+          "5": 20,
+          "4": 10,
+          "3": 5,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": false,
+      "viewCount": 150,
+      "discountPercentage": 17
+    },
+    {
+      "id": "prod-17",
+      "name": "Giày Lười Da Bò Cao Cấp Clarks",
+      "slug": "giay-luoi-clarks",
+      "description": "Giày lười nam da bò nguyên tấm, thiết kế sang trọng và thoải mái",
+      "shortDescription": "Giày lười da bò cao cấp Clarks, đẳng cấp nam tính",
+      "price": 2500000,
+      "salePrice": 2100000,
+      "sku": "GIAYLUOI-CLARKS-001",
+      "stock": 25,
+      "images": [
+        "/public/products/clarks-loafer-1.jpg",
+        "/public/products/clarks-loafer-2.jpg"
+      ],
+      "categoryIds": ["cat-5"],
+      "tags": ["giày nam", "da bò", "clarks", "sang trọng"],
+      "attributes": {
+        "brand": "Clarks",
+        "material": "Da bò thật",
+        "color": ["Nâu", "Đen"],
+        "size": [39, 40, 41, 42, 43, 44],
+        "origin": "Anh Quốc",
+        "soleType": "Đế cao su",
+        "closureType": "Slip-on"
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 42,
+        "details": {
+          "5": 25,
+          "4": 12,
+          "3": 5,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 220,
+      "discountPercentage": 16
+    },
+    {
+      "id": "prod-18",
+      "name": "Giày Mọi Da Lộn Cao Cấp",
+      "slug": "giay-moi-da-lon",
+      "description": "Giày mọi nam da lộn êm ái, phong cách lịch lãm",
+      "shortDescription": "Giày mọi Zara chất liệu da lộn cao cấp",
+      "price": 1800000,
+      "salePrice": 1500000,
+      "sku": "ZARA-GIAY-MOI-001",
+      "stock": 35,
+      "images": [
+        "/public/products/zara-suede-loafer-1.jpg",
+        "/public/products/zara-suede-loafer-2.jpg"
+      ],
+      "categoryIds": ["cat-6"],
+      "tags": ["giày nam", "da lộn", "zara", "mọi"],
+      "attributes": {
+        "brand": "Zara",
+        "material": "Da lộn cao cấp",
+        "color": ["Xanh Navy", "Nâu Sáng", "Đen"],
+        "size": [39, 40, 41, 42, 43, 44],
+        "soleType": "Đế cao su mềm",
+        "closureType": "Slip-on",
+        "occasion": ["Công sở", "Dạo phố"]
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 65,
+        "details": {
+          "5": 35,
+          "4": 20,
+          "3": 10,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 280,
+      "discountPercentage": 16
+    },
+    {
+      "id": "prod-19",
+      "name": "Nước Hoa Chanel Bleu Nam Tính",
+      "slug": "nuoc-hoa-chanel-bleu",
+      "description": "Nước hoa nam tính, lịch lãm từ Chanel, toát lên vẻ đẳng cấp",
+      "shortDescription": "Nước hoa Chanel Bleu - Đẳng cấp và quyến rũ",
+      "price": 3500000,
+      "salePrice": 3200000,
+      "sku": "CHANEL-BLEU-001",
+      "stock": 40,
+      "images": [
+        "/public/products/chanel-bleu-perfume-1.jpg",
+        "/public/products/chanel-bleu-perfume-2.jpg"
+      ],
+      "categoryIds": ["cat-8"],
+      "tags": ["nước hoa", "chanel", "nam giới", "sang trọng"],
+      "attributes": {
+        "brand": "Chanel",
+        "type": "Nam",
+        "volume": ["50ml", "100ml"],
+        "scentType": ["Gỗ", "Biển", "Cam"],
+        "notes": {
+          "top": "Cam, Bạc Hà",
+          "middle": "Gỗ Đàn Hương",
+          "base": "Nhang, Xạ Hương"
+        },
+        "longevity": "8-10 giờ"
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 120,
+        "details": {
+          "5": 80,
+          "4": 30,
+          "3": 10,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 450,
+      "discountPercentage": 9
+    },
+    {
+      "id": "prod-20",
+      "name": "Túi Xách Da Cao Cấp",
+      "slug": "tui-xach-da-cao-cap",
+      "description": "Túi xách da thật sang trọng, đa năng từ Louis Vuitton",
+      "shortDescription": "Túi xách LV - Biểu tượng của phong cách",
+      "price": 4500000,
+      "salePrice": 4000000,
+      "sku": "LV-TUIXACH-001",
+      "stock": 15,
+      "images": [
+        "/public/products/lv-leather-bag-1.jpg",
+        "/public/products/lv-leather-bag-2.jpg"
+      ],
+      "categoryIds": ["cat-7"],
+      "tags": ["túi xách", "louis vuitton", "da cao cấp", "thời trang"],
+      "attributes": {
+        "brand": "Louis Vuitton",
+        "material": "Da bò nguyên tấm",
+        "color": ["Đen", "Nâu", "Trắng"],
+        "size": ["Nhỏ", "Trung", "Lớn"],
+        "compartments": 3,
+        "closure": "Khóa kéo",
+        "straps": "Có thể điều chỉnh"
+      },
+      "rating": {
+        "average": 4.9,
+        "count": 75,
+        "details": {
+          "5": 60,
+          "4": 12,
+          "3": 3,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 350,
+      "discountPercentage": 11
+    },
+    {
+      "id": "prod-21",
+      "name": "Bông Tai Vàng Trắng Đính Ngọc",
+      "slug": "bong-tai-vang-ngoc",
+      "description": "Bông tai vàng trắng đính ngọc tinh xảo, sang trọng",
+      "shortDescription": "Bông tai vàng trắng 14K đính ngọc Zircon",
+      "price": 12000000,
+      "salePrice": 10500000,
+      "sku": "BONGTAI-VANG-001",
+      "stock": 15, 
+      "images": [
+        "/public/products/white-gold-earrings-1.jpg",
+        "/public/products/white-gold-earrings-2.jpg"
+      ],
+      "categoryIds": ["cat-10"],
+      "tags": ["trang sức", "bông tai", "vàng trắng", "ngọc"],
+      "attributes": {
+        "material": "Vàng trắng 14K",
+        "gemstone": "Ngọc Zircon",
+        "style": ["Cổ điển", "Hiện đại"],
+        "length": ["1.5cm", "2cm"],
+        "weight": "3.5g",
+        "purity": "14K"
+      },
+      "rating": {
+        "average": 4.7,
+        "count": 45,
+        "details": {
+          "5": 30,
+          "4": 12,
+          "3": 3,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 220,
+      "discountPercentage": 12
+    },
+    {
+      "id": "prod-22",
+      "name": "Hộp Đựng Trang Sức Da Cao Cấp",
+      "slug": "hop-dung-trang-suc",
+      "description": "Hộp đựng trang sức sang trọng, bảo quản tối ưu",
+      "shortDescription": "Hộp đựng trang sức da cao cấp, an toàn và tiện lợi",
+      "price": 1200000,
+      "salePrice": 950000,
+      "sku": "HOPDUNG-TRANGSSUC-001",
+      "stock": 25,
+      "images": [
+        "/public/products/jewelry-box-leather-1.jpg",
+        "/public/products/jewelry-box-leather-2.jpg"
+      ],
+      "categoryIds": ["cat-9"],
+      "tags": ["phụ kiện", "hộp đựng", "trang sức", "da cao cấp"],
+      "attributes": {
+        "material": "Da cao cấp",
+        "color": ["Đen", "Nâu", "Kem"],
+        "capacity": ["6-8 sản phẩm", "10-12 sản phẩm"],
+        "features": ["Khóa an toàn", "Lót nhung mềm"],
+        "dimensions": {
+          "length": "25cm",
+          "width": "18cm",
+          "height": "10cm"
+        }
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 38,
+        "details": {
+          "5": 22,
+          "4": 12,
+          "3": 4,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": false,
+      "viewCount": 180,
+      "discountPercentage": 21
+    },
+    {
+      "id": "prod-23",
+      "name": "Serum Vitamin C Làm Sáng Da",
+      "slug": "serum-vitamin-c",
+      "description": "Serum chuyên sâu làm sáng và đều màu da, giảm thâm nám",
+      "shortDescription": "Serum Vitamin C The Ordinary - Giải pháp cho làn da sáng mịn",
+      "price": 850000,
+      "salePrice": 680000,
+      "sku": "SERUM-VITAMinc-001",
+      "stock": 40, 
+      "images": [
+        "/public/products/vitamin-c-serum-1.jpg",
+        "/public/products/vitamin-c-serum-2.jpg"
+      ],
+      "categoryIds": ["cat-1"],
+      "tags": ["chăm sóc da", "serum", "vitamin c", "làm sáng da"],
+      "attributes": {
+        "brand": "The Ordinary",
+        "concentration": "15% Vitamin C",
+        "skinType": ["Da dầu", "Da khô", "Da hỗn hợp"],
+        "volume": "30ml",
+        "benefits": [
+          "Làm sáng da",
+          "Giảm thâm nám",
+          "Chống oxy hóa"
+        ],
+        "usage": "Sử dụng 2-3 lần/tuần"
+      },
+      "rating": {
+        "average": 4.5,
+        "count": 62,
+        "details": {
+          "5": 35,
+          "4": 20,
+          "3": 7,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 290,
+      "discountPercentage": 20
+    },
+    {
+      "id": "prod-24",
+      "name": "Nước Hoa Dior J'adore Sang Trọng",
+      "slug": "nuoc-hoa-dior-jadore",
+      "description": "Nước hoa nữ quyến rũ từ Dior, toát lên vẻ đài các và tinh tế",
+      "shortDescription": "Nước hoa Dior J'adore - Biểu tượng của sự nữ tính",
+      "price": 3200000,
+      "salePrice": 2900000,
+      "sku": "DIOR-JADORE-001",
+      "stock": 30, 
+      "images": [
+        "/public/products/dior-jadore-perfume-1.jpg",
+        "/public/products/dior-jadore-perfume-2.jpg"
+      ],
+      "categoryIds": ["cat-8"],
+      "tags": ["nước hoa", "dior", "nữ giới", "sang trọng"],
+      "attributes": {
+        "brand": "Dior",
+        "type": "Nữ",
+        "volume": ["50ml", "100ml"],
+        "scentType": ["Hoa", "Ngọt", "Trái cây"],
+        "notes": {
+          "top": "Hoa Lan, Hoa Hồng",
+          "middle": "Nhài, Hoa Violet",
+          "base": "Gỗ Đàn Hương, Xạ Hương"
+        },
+        "longevity": "10-12 giờ",
+        "scentIntensity": "Mạnh"
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 95,
+        "details": {
+          "5": 65,
+          "4": 25,
+          "3": 5,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 380,
+      "discountPercentage": 9
+    },
+    {
+      "id": "prod-25",
+      "name": "Giày Lười Da Mềm Nữ Cao Cấp",
+      "slug": "giay-luoi-nu-cao-cap",
+      "description": "Giày lười nữ da mềm, êm ái và thời trang, phù hợp nhiều phong cách",
+      "shortDescription": "Giày lười Melissa - Thoải mái và sang trọng",
+      "price": 1500000,
+      "salePrice": 1200000,
+      "sku": "MELISSA-GIAYLUOI-001",
+      "stock": 35,
+      "images": [
+        "/public/products/melissa-loafer-1.jpg",
+        "/public/products/melissa-loafer-2.jpg"
+      ],
+      "categoryIds": ["cat-5"],
+      "tags": ["giày nữ", "da mềm", "melissa", "thoải mái"],
+      "attributes": {
+        "brand": "Melissa",
+        "material": "Da mềm cao cấp",
+        "color": ["Hồng Pastel", "Trắng", "Đen"],
+        "size": [35, 36, 37, 38, 39, 40],
+        "soleType": "Đế cao su mềm",
+        "closureType": "Slip-on",
+        "heelHeight": "2cm",
+        "occasion": ["Công sở", "Dạo phố", "Dự tiệc"]
+      },
+      "rating": {
+        "average": 4.6,
+        "count": 55,
+        "details": {
+          "5": 35,
+          "4": 15,
+          "3": 5,
+          "2": 0,
+          "1": 0
+        }
+      },
+      "isActive": true,
+      "isFeatured": true,
+      "isHotTrend": true,
+      "viewCount": 260,
+      "discountPercentage": 20
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "email": "gianglc@gmail.com",
+      "username": "gianglc",
+      "firstName": "Giang",
+      "lastName": "Lê",
+      "fullName": "Lê Chí Giang",
+      "phone": "0437868904",
+      "avatar": "/images/users/giang.jpg",
+      "address": {
+        "street": "Tòa nhà Hà Nội Group, Số 442 Đội Cấn",
+        "city": "Hà Nội",
+        "district": "Ba Đình",
+        "province": "Hà Nội",
+        "zipCode": "100000",
+        "country": "Việt Nam"
+      },
+      "role": "user",
+      "isActive": true,
+      "registeredAt": "2023-01-15T10:30:00Z",
+      "lastLogin": "2024-07-24T08:45:00Z"
+    },
+    {
+      "id": "user-admin-1",
+      "email": "admin@mandala.com",
+      "username": "admin_mandala",
+      "firstName": "Admin",
+      "lastName": "Mandala",
+      "fullName": "Admin Mandala",
+      "role": "admin",
+      "isActive": true,
+      "permissions": [
+        "manage_users",
+        "manage_products",
+        "manage_orders",
+        "view_statistics"
+      ]
+    },
+    {
+      "id": "user-2",
+      "email": "anhnguyen@gmail.com",
+      "username": "anhnguyen89",
+      "fullName": "Nguyễn Thị Ánh",
+      "phone": "0987654321",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "user-3",
+      "email": "tranvan@gmail.com",
+      "username": "tranvan95",
+      "fullName": "Trần Văn An",
+      "phone": "0912345678",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": "user-4",
+      "email": "quynhtrang@gmail.com",
+      "username": "quynhtrang92",
+      "fullName": "Trần Quỳnh Trang",
+      "phone": "0976543210",
+      "role": "user",
+      "address": {
+        "street": "123 Đường Láng",
+        "city": "Hà Nội",
+        "province": "Hà Nội"
+      },
+      "isActive": true,
+      "registeredAt": "2023-03-15T10:30:00Z"
+    },
+    {
+      "id": "user-5",
+      "email": "minhtuan@gmail.com",
+      "username": "minhtuan87",
+      "fullName": "Nguyễn Minh Tuấn",
+      "phone": "0965432198",
+      "role": "admin",
+      "address": {
+        "street": "45 Lê Duẩn",
+        "city": "Hồ Chí Minh",
+        "province": "Hồ Chí Minh"
+      },
+      "isActive": true,
+      "registeredAt": "2022-11-20T15:45:00Z"
+    },
+    {
+      "id": "user-6",
+      "email": "hoanglam@gmail.com",
+      "username": "hoanglam94",
+      "fullName": "Lâm Hoàng",
+      "phone": "0943216587",
+      "role": "user",
+      "address": {
+        "street": "78 Nguyễn Trãi",
+        "city": "Đà Nẵng",
+        "province": "Đà Nẵng"
+      },
+      "isActive": true,
+      "registeredAt": "2024-01-10T09:15:00Z"
+    },
+    {
+      "id": "user-7",
+      "email": "thuylinh@gmail.com",
+      "username": "thuylinh90",
+      "fullName": "Nguyễn Thúy Linh",
+      "phone": "0932165478",
+      "role": "user",
+      "address": {
+        "street": "256 Lý Thường Kiệt",
+        "city": "Hải Phòng",
+        "province": "Hải Phòng"
+      },
+      "isActive": true,
+      "registeredAt": "2023-07-05T14:20:00Z"
+    },
+    {
+      "id": "user-8",
+      "email": "ducmanh@gmail.com",
+      "username": "ducmanh85",
+      "fullName": "Phạm Đức Mạnh",
+      "phone": "0954321687",
+      "role": "user",
+      "address": {
+        "street": "12 Trần Phú",
+        "city": "Cần Thơ",
+        "province": "Cần Thơ"
+      },
+      "isActive": false,
+      "registeredAt": "2022-05-30T11:10:00Z"
+    },
+    {
+      "id": "user-9",
+      "email": "kimchi@gmail.com",
+      "username": "kimchi93",
+      "fullName": "Trần Kim Chi",
+      "phone": "0987123456",
+      "role": "moderator",
+      "address": {
+        "street": "67 Nguyễn Văn Cừ",
+        "city": "Hà Nội",
+        "province": "Hà Nội"
+      },
+      "isActive": true,
+      "registeredAt": "2023-12-01T16:55:00Z"
+    },
+    {
+      "id": "user-10",
+      "email": "vanphuc@gmail.com",
+      "username": "vanphuc88",
+      "fullName": "Ngô Văn Phúc",
+      "phone": "0945678912",
+      "role": "user",
+      "address": {
+        "street": "34 Bà Triệu",
+        "city": "Huế",
+        "province": "Thừa Thiên Huế"
+      },
+      "isActive": true,
+      "registeredAt": "2024-02-14T13:40:00Z"
+    },
+    {
+      "id": "user-11",
+      "email": "hongvan@gmail.com",
+      "username": "hongvan91",
+      "fullName": "Trịnh Hồng Vân",
+      "phone": "0923456789",
+      "role": "user",
+      "address": {
+        "street": "89 Điện Biên Phủ",
+        "city": "Hồ Chí Minh",
+        "province": "Hồ Chí Minh"
+      },
+      "isActive": true,
+      "registeredAt": "2023-09-22T10:05:00Z"
+    },
+    {
+      "id": "user-12",
+      "email": "thanhminh@gmail.com",
+      "username": "thanhminh87",
+      "fullName": "Nguyễn Thành Minh",
+      "phone": "0912345678",
+      "role": "user",
+      "address": {
+        "street": "123 Trần Hưng Đạo",
+        "city": "Hà Nội",
+        "province": "Hà Nội"
+      }
+    },
+    {
+      "id": "user-13",
+      "email": "hoangtuan@gmail.com",
+      "username": "hoangtuan95",
+      "fullName": "Trần Hoàng Tuấn",
+      "phone": "0987654321",
+      "role": "admin",
+      "permissions": [
+        "manage_products",
+        "manage_users",
+        "view_statistics"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-1",
+      "userId": "user-1",
+      "orderNumber": "MD-2024-001",
+      "status": "delivered",
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Lắc tay Tiffany Xu Hướng Mới",
+          "price": 955000,
+          "salePrice": 799000,
+          "quantity": 1,
+          "image": "/images/products/bracelet-1.jpg"
+        }
+      ],
+      "subtotal": 955000,
+      "discount": 156000,
+      "tax": 47750,
+      "shipping": 30000,
+      "total": 876750,
+      "paymentMethod": "bank_transfer",
+      "paymentStatus": "paid",
+      "shippingMethod": "standard",
+      "shippingAddress": {
+        "fullName": "Lê Chí Giang",
+        "phone": "0437868904",
+        "street": "Tòa nhà Hà Nội Group, Số 442 Đội Cấn",
+        "city": "Hà Nội",
+        "province": "Hà Nội",
+        "zipCode": "100000"
+      },
+      "createdAt": "2024-07-24T09:15:00Z",
+      "updatedAt": "2024-07-24T10:30:00Z"
+    },
+    {
+      "id": "order-2",
+      "userId": "user-2",
+      "orderNumber": "MD-2024-002",
+      "status": "processing",
+      "items": [
+        {
+          "productId": "prod-3",
+          "name": "Nhẫn Kim Cương Luxury",
+          "price": 25000000,
+          "salePrice": 22000000,
+          "quantity": 1,
+          "image": "/images/products/diamond-ring-1.jpg"
+        },
+        {
+          "productId": "prod-6",
+          "name": "Nước Hoa Nam Dior Sauvage",
+          "price": 3500000,
+          "salePrice": 3150000,
+          "quantity": 1,
+          "image": "/images/products/dior-sauvage-1.jpg"
+        }
+      ],
+      "subtotal": 28500000,
+      "discount": 3350000,
+      "tax": 1425000,
+      "shipping": 50000,
+      "total": 26625000,
+      "paymentMethod": "credit_card",
+      "paymentStatus": "pending",
+      "shippingMethod": "express",
+      "shippingAddress": {
+        "fullName": "Nguyễn Thị Ánh",
+        "phone": "0987654321",
+        "street": "123 Đường Láng",
+        "city": "Hà Nội",
+        "province": "Hà Nội",
+        "zipCode": "100000"
+      },
+      "createdAt": "2024-07-20T14:30:00Z",
+      "updatedAt": "2024-07-24T11:45:00Z"
+    },
+    {
+      "id": "order-3",
+      "userId": "user-3",
+      "orderNumber": "MD-2024-003",
+      "status": "delivered",
+      "items": [
+        {
+          "productId": "prod-4",
+          "name": "Son Môi Cao Cấp Chanel",
+          "price": 1200000,
+          "salePrice": 1050000,
+          "quantity": 2,
+          "image": "/images/products/chanel-lipstick-1.jpg"
+        },
+        {
+          "productId": "prod-7",
+          "name": "Kem Dưỡng Da Lancôme Advanced",
+          "price": 2800000,
+          "salePrice": 2520000,
+          "quantity": 1,
+          "image": "/images/products/lancome-cream-1.jpg"
+        }
+      ],
+      "subtotal": 4800000,
+      "discount": 600000,
+      "tax": 240000,
+      "shipping": 40000,
+      "total": 4480000,
+      "paymentMethod": "momo",
+      "paymentStatus": "paid",
+      "shippingMethod": "standard",
+      "shippingAddress": {
+        "fullName": "Trần Văn An",
+        "phone": "0912345678",
+        "street": "45 Nguyễn Trãi",
+        "city": "Hồ Chí Minh",
+        "province": "Hồ Chí Minh",
+        "zipCode": "700000"
+      },
+      "createdAt": "2024-07-15T10:15:00Z",
+      "updatedAt": "2024-07-22T09:30:00Z"
+    },
+    {
+      "id": "order-4",
+      "userId": "user-4",
+      "orderNumber": "MD-2024-004",
+      "status": "shipped",
+      "items": [
+        {
+          "productId": "prod-8",
+          "name": "Lắc Tay Bạc Đính Đá Swarovski",
+          "price": 1500000,
+          "salePrice": 1350000,
+          "quantity": 1,
+          "image": "/images/products/silver-bracelet-1.jpg"
+        }
+      ],
+      "subtotal": 1500000,
+      "discount": 150000,
+      "tax": 75000,
+      "shipping": 30000,
+      "total": 1455000,
+      "paymentMethod": "bank_transfer",
+      "paymentStatus": "paid",
+      "shippingMethod": "express",
+      "shippingAddress": {
+        "fullName": "Trần Quỳnh Trang",
+        "phone": "0976543210",
+        "street": "78 Lý Thường Kiệt",
+        "city": "Đà Nẵng",
+        "province": "Đà Nẵng",
+        "zipCode": "550000"
+      },
+      "createdAt": "2024-07-18T16:45:00Z",
+      "updatedAt": "2024-07-23T14:20:00Z"
+    },
+    {
+      "id": "order-5",
+      "userId": "user-5",
+      "orderNumber": "MD-2024-005",
+      "status": "processing",
+      "items": [
+        {
+          "productId": "prod-5",
+          "name": "Dây Chuyền Vàng 18K Sang Trọng",
+          "price": 35000000,
+          "salePrice": 31500000,
+          "quantity": 1,
+          "image": "/images/products/gold-necklace-1.jpg"
+        },
+        {
+          "productId": "prod-9",
+          "name": "Phấn Nền Chanel Les Beiges",
+          "price": 1800000,
+          "salePrice": 1620000,
+          "quantity": 1,
+          "image": "/images/products/chanel-foundation-1.jpg"
+        }
+      ],
+      "subtotal": 36800000,
+      "discount": 4380000,
+      "tax": 1840000,
+      "shipping": 60000,
+      "total": 34320000,
+      "paymentMethod": "credit_card",
+      "paymentStatus": "pending",
+      "shippingMethod": "standard",
+      "shippingAddress": {
+        "fullName": "Nguyễn Minh Tuấn",
+        "phone": "0965432198",
+        "street": "256 Trần Phú",
+        "city": "Hồ Chí Minh",
+        "province": "Hồ Chí Minh",
+        "zipCode": "700000"
+      },
+      "createdAt": "2024-07-22T11:30:00Z",
+      "updatedAt": "2024-07-24T09:15:00Z"
+    },
+    {
+      "id": "order-6",
+      "userId": "user-6",
+      "orderNumber": "MD-2024-006",
+      "status": "delivered",
+      "items": [
+        {
+          "productId": "prod-10",
+          "name": "Dầu Gội Cao Cấp Kerastase",
+          "price": 850000,
+          "salePrice": 765000,
+          "quantity": 2,
+          "image": "/images/products/kerastase-shampoo-1.jpg"
+        }
+      ],
+      "subtotal": 1700000,
+      "discount": 170000,
+      "tax": 85000,
+      "shipping": 25000,
+      "total": 1640000,
+      "paymentMethod": "momo",
+      "paymentStatus": "paid",
+      "shippingMethod": "standard",
+      "shippingAddress": {
+        "fullName": "Lâm Hoàng",
+        "phone": "0943216587",
+        "street": "12 Nguyễn Văn Cừ",
+        "city": "Đà Nẵng",
+        "province": "Đà Nẵng",
+        "zipCode": "550000"
+      },
+      "createdAt": "2024-07-16T13:20:00Z",
+      "updatedAt": "2024-07-21T10:45:00Z"
+    },
+    {
+      "id": "order-7",
+      "userId": "user-7",
+      "orderNumber": "MD-2024-007",
+      "status": "shipped",
+      "items": [
+        {
+          "productId": "prod-11",
+          "name": "Nhẫn Đôi Bạc Cao Cấp",
+          "price": 2200000,
+          "salePrice": 1980000,
+          "quantity": 1,
+          "image": "/images/products/couple-ring-1.jpg"
+        },
+        {
+          "productId": "prod-12",
+          "name": "Nước Hoa Nữ Chanel Chance",
+          "price": 3200000,
+          "salePrice": 2880000,
+          "quantity": 1,
+          "image": "/images/products/chanel-chance-1.jpg"
+        }
+      ],
+      "subtotal": 5400000,
+      "discount": 740000,
+      "tax": 270000,
+      "shipping": 45000,
+      "total": 4975000,
+      "paymentMethod": "bank_transfer",
+      "paymentStatus": "paid",
+      "shippingMethod": "express",
+      "shippingAddress": {
+        "fullName": "Nguyễn Thúy Linh",
+        "phone": "0932165478",
+        "street": "89 Lê Duẩn",
+        "city": "Hải Phòng",
+        "province": "Hải Phòng",
+        "zipCode": "180000"
+      },
+      "createdAt": "2024-07-19T15:10:00Z",
+      "updatedAt": "2024-07-23T11:30:00Z"
+    },
+    {
+      "id": "order-8",
+      "userId": "user-8",
+      "orderNumber": "MD-2024-008",
+      "status": "processing",
+      "items": [
+        {
+          "productId": "prod-2",
+          "name": "Bông Tai Bạc Đính Đá",
+          "price": 750000,
+          "salePrice": 675000,
+          "quantity": 1,
+          "image": "/images/products/earrings-1.jpg"
+        }
+      ],
+      "subtotal": 750000,
+      "discount": 75000,
+      "tax": 37500,
+      "shipping": 20000,
+      "total": 732500,
+      "paymentMethod": "credit_card",
+      "paymentStatus": "pending",
+      "shippingMethod": "standard",
+      "shippingAddress": {
+        "fullName": "Phạm Đức Mạnh",
+        "phone": "0954321687",
+        "street": "34 Trần Hưng Đạo",
+        "city": "Cần Thơ",
+        "province": "Cần Thơ",
+        "zipCode": "900000"
+      },
+      "createdAt": "2024-07-21T12:40:00Z",
+      "updatedAt": "2024-07-24T08:55:00Z"
+    },
+    {
+      "id": "order-9",
+      "userId": "user-9",
+      "orderNumber": "MD-2024-009",
+      "status": "delivered",
+      "items": [
+        {
+          "productId": "prod-5",
+          "name": "Dây Chuyền Vàng 18K Sang Trọng",
+          "price": 35000000,
+          "salePrice": 31500000,
+          "quantity": 1,
+          "image": "/images/products/gold-necklace-1.jpg"
+        }
+      ],
+      "subtotal": 35000000,
+      "discount": 3500000,
+      "tax": 1750000,
+      "shipping": 50000,
+      "total": 33300000,
+      "paymentMethod": "bank_transfer",
+      "paymentStatus": "paid",
+      "shippingMethod": "express",
+      "shippingAddress": {
+        "fullName": "Trần Kim Chi",
+        "phone": "0987123456",
+        "street": "67 Nguyễn Văn Cừ",
+        "city": "Hà Nội",
+        "province": "Hà Nội",
+        "zipCode": "100000"
+      },
+      "createdAt": "2024-07-17T09:50:00Z",
+      "updatedAt": "2024-07-22T15:20:00Z"
+    },
+{
+      "id": "order-10",
+      "userId": "user-12",
+      "orderNumber": "MD-2024-010",
+      "status": "processing",
+      "items": [
+        {
+          "productId": "prod-13",
+          "name": "Kem Chống Nắng Anessa",
+          "price": 450000,
+          "quantity": 2
+        },
+        {
+          "productId": "prod-15",
+          "name": "Nhẫn Vàng Trắng Kim Cương",
+          "price": 45000000,
+          "quantity": 1
+        }
+      ],
+      "total": 45900000,
+      "paymentMethod": "credit_card"
+    },
+    {
+      "id": "order-11",
+      "userId": "user-13",
+      "orderNumber": "MD-2024-011",
+      "status": "completed",
+      "items": [
+        {
+          "productId": "prod-18",
+          "name": "Giày Mọi Da Lộn Cao Cấp",
+          "price": 1800000,
+          "quantity": 1
+        },
+        {
+          "productId": "prod-22",
+          "name": "Hộp Đựng Trang Sức Da Cao Cấp",
+          "price": 1200000,
+          "quantity": 1
+        }
+      ],
+      "total": 3000000,
+      "paymentMethod": "bank_transfer"
+    },
+    {
+      "id": "order-12",
+      "userId": "user-12",
+      "orderNumber": "MD-2024-012",
+      "status": "shipped",
+      "items": [
+        {
+          "productId": "prod-19",
+          "name": "Nước Hoa Chanel Bleu Nam Tính",
+          "price": 3500000,
+          "quantity": 1
+        },
+        {
+          "productId": "prod-23",
+          "name": "Serum Vitamin C Làm Sáng Da",
+          "price": 850000,
+          "quantity": 2
+        }
+      ],
+      "total": 5200000,
+      "paymentMethod": "momo"
+    },
+    {
+      "id": "order-13",
+      "userId": "user-13",
+      "orderNumber": "MD-2024-013",
+      "status": "delivered",
+      "items": [
+        {
+          "productId": "prod-20",
+          "name": "Túi Xách Da Cao Cấp",
+          "price": 4500000,
+          "quantity": 1
+        }
+      ],
+      "total": 4500000,
+      "paymentMethod": "cash_on_delivery"
+    },
+    {
+      "id": "order-14",
+      "userId": "user-12",
+      "orderNumber": "MD-2024-014",
+      "status": "cancelled",
+      "items": [
+        {
+          "productId": "prod-21",
+          "name": "Bông Tai Vàng Trắng Đính Ngọc",
+          "price": 12000000,
+          "quantity": 1
+        },
+        {
+          "productId": "prod-24",
+          "name": "Nước Hoa Dior J'adore Sang Trọng",
+          "price": 3200000,
+          "quantity": 1
+        }
+      ],
+      "total": 15200000,
+      "paymentMethod": "credit_card",
+      "cancellationReason": "Changed mind"
+    },
+    {
+      "id": "order-15",
+      "userId": "user-13",
+      "orderNumber": "MD-2024-015",
+      "status": "processing",
+      "items": [
+        {
+          "productId": "prod-25",
+          "name": "Giày Lười Da Mềm Nữ Cao Cấp",
+          "price": 1500000,
+          "quantity": 2
+        }
+      ],
+      "total": 3000000,
+      "paymentMethod": "bank_transfer"
+    },
+    {
+      "id": "order-16",
+      "userId": "user-12",
+      "orderNumber": "MD-2024-016",
+      "status": "shipped",
+      "items": [
+        {
+          "productId": "prod-14",
+          "name": "Vòng Tay Bạc Đính Đá Swarovski",
+          "price": 2500000,
+          "quantity": 1
+        },
+        {
+          "productId": "prod-16",
+          "name": "Lắc Chân Bạc Đính Ngọc Trai",
+          "price": 1800000,
+          "quantity": 1
+        }
+      ],
+      "total": 4300000,
+      "paymentMethod": "momo"
+    },
+    {
+      "id": "order-17",
+      "userId": "user-13",
+      "orderNumber": "MD-2024-017",
+      "status": "delivered",
+      "items": [
+        {
+          "productId": "prod-17",
+          "name": "Giày Lười Da Bò Cao Cấp Clarks",
+          "price": 2500000,
+          "quantity": 1
+        }
+      ],
+      "total": 2500000,
+      "paymentMethod": "credit_card"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review-1",
+      "productId": "prod-1",
+      "userId": "user-1",
+      "rating": 5,
+      "comment": "Lắc tay rất đẹp, chất lượng tuyệt vời, đúng như mong đợi!",
+      "images": ["/images/reviews/review-1.jpg"],
+      "createdAt": "2024-07-20T14:45:00Z"
+    },
+    {
+      "id": "review-2",
+      "productId": "prod-3",
+      "userId": "user-2",
+      "rating": 4,
+      "comment": "Nhẫn kim cương rất sang trọng, độ bóng đẹp. Giá hơi cao nhưng chất lượng xứng đáng.",
+      "images": ["/images/reviews/review-2-1.jpg", "/images/reviews/review-2-2.jpg"],
+      "createdAt": "2024-07-21T10:30:00Z"
+    },
+    {
+      "id": "review-3",
+      "productId": "prod-5",
+      "userId": "user-3",
+      "rating": 5,
+      "comment": "Dây chuyền vàng 18K tuyệt đẹp! Thiết kế tinh xảo, chất lượng vượt trội. Rất hài lòng!",
+      "images": ["/images/reviews/review-3-1.jpg"],
+      "createdAt": "2024-07-19T16:20:00Z"
+    },
+    {
+      "id": "review-4",
+      "productId": "prod-6",
+      "userId": "user-4",
+      "rating": 4,
+      "comment": "Nước hoa Dior Sauvage có mùi rất nam tính và lưu hương tốt. Sẽ mua lại!",
+      "images": [],
+      "createdAt": "2024-07-18T11:45:00Z"
+    },
+    {
+      "id": "review-5",
+      "productId": "prod-7",
+      "userId": "user-5",
+      "rating": 5,
+      "comment": "Kem dưỡng da Lancôme thấm nhanh, không gây nhờn. Da tôi trở nên mịn màng và sáng hơn sau 2 tuần sử dụng.",
+      "images": ["/images/reviews/review-5-1.jpg", "/images/reviews/review-5-2.jpg"],
+      "createdAt": "2024-07-22T09:15:00Z"
+    },
+    {
+      "id": "review-6",
+      "productId": "prod-8",
+      "userId": "user-6",
+      "rating": 4,
+      "comment": "Lắc tay bạc đẹp, đá Swarovski lấp lánh. Giá hợp lý cho một sản phẩm chất lượng.",
+      "images": ["/images/reviews/review-6-1.jpg"],
+      "createdAt": "2024-07-17T14:50:00Z"
+    },
+    {
+      "id": "review-7",
+      "productId": "prod-9",
+      "userId": "user-7",
+      "rating": 5,
+      "comment": "Phấn nền Chanel che phủ hoàn hảo, màu sắc tự nhiên. Sản phẩm tuyệt vời!",
+      "images": ["/images/reviews/review-7-1.jpg"],
+      "createdAt": "2024-07-20T13:30:00Z"
+    },
+    {
+      "id": "review-8",
+      "productId": "prod-10",
+      "userId": "user-8",
+      "rating": 4,
+      "comment": "Dầu gội Kerastase giúp tóc mềm mại và bóng mượt. Hơi đắt nhưng hiệu quả.",
+      "images": [],
+      "createdAt": "2024-07-16T10:10:00Z"
+    },
+    {
+      "id": "review-9",
+      "productId": "prod-11",
+      "userId": "user-9",
+      "rating": 5,
+      "comment": "Nhẫn đôi thiết kế rất tinh tế, chất liệu bạc cao cấp. Một món quà ý nghĩa!",
+      "images": ["/images/reviews/review-9-1.jpg", "/images/reviews/review-9-2.jpg"],
+      "createdAt": "2024-07-21T15:40:00Z"
+    },
+    {
+      "id": "review-10",
+      "productId": "prod-12",
+      "userId": "user-10",
+      "rating": 4,
+      "comment": "Nước hoa Chanel Chance có mùi nhẹ nhàng, quyến rũ. Phù hợp cho các buổi tiệc.",
+      "images": ["/images/reviews/review-10-1.jpg"],
+      "createdAt": "2024-07-19T11:20:00Z"
+    },
+    {
+      "id": "review-11",
+      "productId": "prod-2",
+      "userId": "user-11",
+      "rating": 5,
+      "comment": "Bông tai bạc đẹp xuất sắc! Kiểu dáng hiện đại, đá được gắn rất khéo léo.",
+      "images": ["/images/reviews/review-11-1.jpg", "/images/reviews/review-11-2.jpg"],
+      "createdAt": "2024-07-22T16:55:00Z"
+    },
+{
+      "id": "review-12",
+      "productId": "prod-13",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Kem chống nắng tuyệt vời, không gây nhờn rít"
+    },
+    {
+      "id": "review-13",
+      "productId": "prod-13",
+      "userId": "user-13",
+      "rating": 4,
+      "comment": "Sản phẩm tốt, độ bảo vệ da khá tốt nhưng giá hơi cao"
+    },
+    {
+      "id": "review-14",
+      "productId": "prod-14",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Vòng tay đẹp lung linh, chất lượng hoàn hảo"
+    },
+    {
+      "id": "review-15",
+      "productId": "prod-14",
+      "userId": "user-13",
+      "rating": 4,
+      "comment": "Thiết kế sang trọng, nhưng khóa hơi khó khăn"
+    },
+    {
+      "id": "review-16",
+      "productId": "prod-15",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Nhẫn kim cương tuyệt đẹp, ánh sáng lung linh"
+    },
+    {
+      "id": "review-17",
+      "productId": "prod-15",
+      "userId": "user-13",
+      "rating": 5,
+      "comment": "Sản phẩm chất lượng cao, đáng giá từng xu"
+    },
+    {
+      "id": "review-18",
+      "productId": "prod-16",
+      "userId": "user-12",
+      "rating": 4,
+      "comment": "Lắc chân xinh xắn, phù hợp nhiều phong cách"
+    },
+    {
+      "id": "review-19",
+      "productId": "prod-16",
+      "userId": "user-13",
+      "rating": 5,
+      "comment": "Thiết kế tinh tế, chất liệu bạc rất đẹp"
+    },
+    {
+      "id": "review-20",
+      "productId": "prod-17",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Giày da êm ái, kiểu dáng sang trọng"
+    },
+    {
+      "id": "review-21",
+      "productId": "prod-17",
+      "userId": "user-13",
+      "rating": 4,
+      "comment": "Chất lượng tốt, nhưng size hơi chật"
+    },
+    {
+      "id": "review-22",
+      "productId": "prod-18",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Giày mọi da lộn mềm mại, rất thoải mái"
+    },
+    {
+      "id": "review-23",
+      "productId": "prod-18",
+      "userId": "user-13",
+      "rating": 4,
+      "comment": "Đẹp và thoải mái, nhưng giá hơi cao"
+    },
+    {
+      "id": "review-24",
+      "productId": "prod-19",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Mùi nước hoa nam tính, lưu hương lâu"
+    },
+    {
+      "id": "review-25",
+      "productId": "prod-19",
+      "userId": "user-13",
+      "rating": 4,
+      "comment": "Mùi thơm dễ chịu, phù hợp nhiều dịp"
+    },
+    {
+      "id": "review-26",
+      "productId": "prod-20",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Túi xách da cao cấp, chế tác tỉ mỉ"
+    },
+    {
+      "id": "review-27",
+      "productId": "prod-20",
+      "userId": "user-13",
+      "rating": 4,
+      "comment": "Túi đẹp, chất lượng tốt nhưng hơi nặng"
+    },
+    {
+      "id": "review-28",
+      "productId": "prod-21",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Bông tai kim cương sang trọng, ánh sáng tuyệt vời"
+    },
+    {
+      "id": "review-29",
+      "productId": "prod-21",
+      "userId": "user-13",
+      "rating": 5,
+      "comment": "Thiết kế tinh xảo, chất lượng vượt trội"
+    },
+    {
+      "id": "review-30",
+      "productId": "prod-22",
+      "userId": "user-12",
+      "rating": 4,
+      "comment": "Hộp đựng trang sức chắc chắn, thiết kế đẹp"
+    },
+    {
+      "id": "review-31",
+      "productId": "prod-22",
+      "userId": "user-13",
+      "rating": 5,
+      "comment": "Bảo quản trang sức rất tốt, chất liệu cao cấp"
+    },
+    {
+      "id": "review-32",
+      "productId": "prod-23",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Serum làm sáng da rõ rệt, sử dụng là thấy ngay hiệu quả"
+    },
+    {
+      "id": "review-33",
+      "productId": "prod-23",
+      "userId": "user-13",
+      "rating": 4,
+      "comment": "Hiệu quả tốt, nhưng giá hơi cao so với các sản phẩm khác"
+    },
+    {
+      "id": "review-34",
+      "productId": "prod-24",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Nước hoa Dior quyến rũ, mùi thơm sang trọng"
+    },
+    {
+      "id": "review-35",
+      "productId": "prod-24",
+      "userId": "user-13",
+      "rating": 4,
+      "comment": "Mùi hương dễ chịu, lưu hương khá tốt"
+    },
+    {
+      "id": "review-36",
+      "productId": "prod-25",
+      "userId": "user-12",
+      "rating": 5,
+      "comment": "Giày lười nữ êm ái, thiết kế trẻ trung"
+    },
+    {
+      "id": "review-37",
+      "productId": "prod-25",
+      "userId": "user-13",
+      "rating": 4,
+      "comment": "Thoải mái và đẹp, nhưng size hơi chật"
+    }
+  ],
+  "cart": [
+    {
+      "id": "cart-1",
+      "userId": "user-1",
+      "items": [
+        {
+          "productId": "prod-2",
+          "quantity": 2,
+          "selectedAttributes": {
+            "size": "M"
+          }
+        }
+      ],
+      "createdAt": "2024-07-24T11:00:00Z"
+    },
+    {
+      "id": "cart-2",
+      "userId": "user-2",
+      "items": [
+        {
+          "productId": "prod-5",
+          "quantity": 1,
+          "selectedAttributes": {
+            "size": "One Size"
+          }
+        },
+        {
+          "productId": "prod-6",
+          "quantity": 1,
+          "selectedAttributes": {
+            "volume": "50ml"
+          }
+        }
+      ],
+      "createdAt": "2024-07-24T12:15:00Z"
+    },
+    {
+      "id": "cart-3",
+      "userId": "user-3",
+      "items": [
+        {
+          "productId": "prod-9",
+          "quantity": 2,
+          "selectedAttributes": {
+            "shade": "B20"
+          }
+        }
+      ],
+      "createdAt": "2024-07-24T09:45:00Z"
+    },
+    {
+      "id": "cart-4",
+      "userId": "user-4",
+      "items": [
+        {
+          "productId": "prod-8",
+          "quantity": 1,
+          "selectedAttributes": {
+            "size": "One Size"
+          }
+        }
+      ],
+      "createdAt": "2024-07-24T14:30:00Z"
+    },
+    {
+      "id": "cart-5",
+      "userId": "user-5",
+      "items": [
+        {
+          "productId": "prod-3",
+          "quantity": 1,
+          "selectedAttributes": {
+            "size": "One Size",
+            "metal": "18K"
+          }
+        },
+        {
+          "productId": "prod-10",
+          "quantity": 2,
+          "selectedAttributes": {
+            "volume": "250ml"
+          }
+        }
+      ],
+      "createdAt": "2024-07-24T10:20:00Z"
+    },
+    {
+      "id": "cart-6",
+      "userId": "user-6",
+      "items": [
+        {
+          "productId": "prod-7",
+          "quantity": 1,
+          "selectedAttributes": {
+            "volume": "50ml"
+          }
+        }
+      ],
+      "createdAt": "2024-07-24T13:40:00Z"
+    },
+    {
+      "id": "cart-7",
+      "userId": "user-7",
+      "items": [
+        {
+          "productId": "prod-11",
+          "quantity": 1,
+          "selectedAttributes": {
+            "size": "Size 16"
+          }
+        },
+        {
+          "productId": "prod-12",
+          "quantity": 1,
+          "selectedAttributes": {
+            "volume": "100ml"
+          }
+        }
+      ],
+      "createdAt": "2024-07-24T11:55:00Z"
+    },
+    {
+      "id": "cart-8",
+      "userId": "user-8",
+      "items": [
+        {
+          "productId": "prod-1",
+          "quantity": 1,
+          "selectedAttributes": {
+            "size": "One Size"
+          }
+        }
+      ],
+      "createdAt": "2024-07-24T15:10:00Z"
+    },
+    {
+      "id": "cart-9",
+      "userId": "user-9",
+      "items": [
+        {
+          "productId": "prod-4",
+          "quantity": 2,
+          "selectedAttributes": {
+            "shade": "Đỏ Cam"
+          }
+        }
+      ],
+      "createdAt": "2024-07-24T08:30:00Z"
+    },
+{
+      "id": "cart-10",
+      "userId": "user-12",
+      "items": [
+        {
+          "productId": "prod-17",
+          "quantity": 1,
+          "selectedAttributes": {
+            "size": 42,
+            "color": "Nâu"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cart-11",
+      "userId": "user-13",
+      "items": [
+        {
+          "productId": "prod-13",
+          "quantity": 3,
+          "selectedAttributes": {
+            "volume": "60ml"
+          }
+        },
+        {
+          "productId": "prod-19",
+          "quantity": 1,
+          "selectedAttributes": {
+            "volume": "100ml"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cart-12",
+      "userId": "user-12",
+      "items": [
+        {
+          "productId": "prod-14",
+          "quantity": 1,
+          "selectedAttributes": {
+            "size": "M"
+          }
+        },
+        {
+          "productId": "prod-23",
+          "quantity": 2,
+          "selectedAttributes": {
+            "volume": "30ml"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cart-13",
+      "userId": "user-13",
+      "items": [
+        {
+          "productId": "prod-20",
+          "quantity": 1,
+          "selectedAttributes": {
+            "color": "Đen",
+            "size": "Trung"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cart-14",
+      "userId": "user-12",
+      "items": [
+        {
+          "productId": "prod-21",
+          "quantity": 1,
+          "selectedAttributes": {
+            "length": "1.5cm",
+            "style": "Hiện đại"
+          }
+        },
+        {
+          "productId": "prod-25",
+          "quantity": 1,
+          "selectedAttributes": {
+            "size": 38,
+            "color": "Hồng Pastel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cart-15",
+      "userId": "user-13",
+      "items": [
+        {
+          "productId": "prod-18",
+          "quantity": 2,
+          "selectedAttributes": {
+            "size": 41,
+            "color": "Xanh Navy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cart-16",
+      "userId": "user-12",
+      "items": [
+        {
+          "productId": "prod-22",
+          "quantity": 1,
+          "selectedAttributes": {
+            "color": "Nâu",
+            "capacity": "6-8 sản phẩm"
+          }
+        },
+        {
+          "productId": "prod-24",
+          "quantity": 1,
+          "selectedAttributes": {
+            "volume": "50ml"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cart-17",
+      "userId": "user-13",
+      "items": [
+        {
+          "productId": "prod-15",
+          "quantity": 1,
+          "selectedAttributes": {
+            "caratWeight": "0.5 carat"
+          }
+        },
+        {
+          "productId": "prod-16",
+          "quantity": 1,
+          "selectedAttributes": {
+            "length": "22cm"
+          }
+        }
+      ]
+    }
+  ]
+}
